@@ -1,0 +1,110 @@
+https://codepen.io/Cloudsurfer35/pen/KKmzdzN?editors=1100
+
+1. What is Semantic HTML?
+Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning.
+ 
+2. What is HTML used for? 
+HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content.
+
+3. What is an attribute and where do we put it?
+Attributes define additional characteristics or properties of the element
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+H1 tag is usually the main header or the title of the page. Usually not to be used more than once.
+
+5. Name two tags that have required attributes
+"img", and "a"
+
+6. What do we put in the head of our HTML document? 
+Information about the whole page, or title.
+
+7. What is an id? 
+HTML id Attribute: The id attribute is a unique identifier which is used to specify the document. It is used by CSS and JavaScript to perform a certain task for a unique element.
+
+8. What elements can I add an id to? 
+Headers, sections, paragraphs...
+
+9. How many times can I use the same id on a page?
+Once per page.
+
+10. What is a class?
+The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name.
+
+11. What elements can I add a class to?
+Any HTML element.
+
+12. How many times can I use the same class on a page?
+As much as you like. 
+
+13. How do I get my link to open in a new tab?
+Add a target="_blank" attribute to your links.
+
+14. What is the alt attribute in the image tag used for? 
+The ALT text adds a text description to an image on a Web page.
+
+15. How do I reference an id?
+Write a hash character (#), followed by an id name.
+
+16. What is the difference between a section and a div
+Section means that the content inside is grouped and should appear as a entry in an outline of a page whereas <div> does not convey any meaning
+
+17. What is CSS used for?
+Styling our HTML.
+
+18. How to we select an element? Example - every h2 on the page
+h2{} in CSS.
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+The only difference between them is that “id” is unique in a page and can only apply to at most one element, and the “class” selector can apply to multiple elements.
+
+20. How do we select classes in CSS?
+Write a period (.) character, followed by the name of the class.
+
+21. How do we select a p element with a single class of “human””?
+.class p{}
+22. What is a parent child selector? When would this be useful? 
+The "parent, child" selector selects all elements that are a direct child of the specified element. Could be useful to design multiple child elements with one declaration.
+
+23. How do you select all links within a div with the class of sidebar?
+#sidebar div{}
+
+24. What is a pseudo selector?
+A pseudo-class is a selector that selects elements that are in a specific state.
+
+25. What do we use the change the spacing between lines?
+The line-height property.
+
+26. What do we use the change the spacing between lines?
+The line-height property.
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+The text-transform CSS property specifies how to capitalize an element's text.
+
+28. How do I add a 1px border around my div that is dotted and black?
+<div style="border: dotted 1px black" id="mydiv">content</div>
+
+29. How do I select everything on the page?
+The * selector selects all elements.
+
+30. How do I write a comment in CSS?
+/* */
+31. How do I find out what file I am in, when I am using the command line?
+pwd . 
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+ 
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+With the command prompt open, enter del /f filename. You need to be careful to not delete important files, to never be seen again.
+
+34. Why should I use version control? 
+Allows you to create a project with multiple inputs from other simultaneously.   
+
+35. How often should I commit to github?
+If you're using Git, then commit whenever you finish a step.
+
+36. What is the command we would use to push our repo up to github?
+Git push -u origin master is used for pushing local content to GitHub. 
+    
+37. Walk me through Lambda's git flow.
+First fork, then clone, push, and pull & compare. 
